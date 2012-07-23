@@ -10,7 +10,6 @@
 		3727436F15BDE32B00391C8E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3727436E15BDE32B00391C8E /* Cocoa.framework */; };
 		3727437915BDE32B00391C8E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3727437715BDE32B00391C8E /* InfoPlist.strings */; };
 		3727437B15BDE32B00391C8E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3727437A15BDE32B00391C8E /* main.m */; };
-		3727437F15BDE32B00391C8E /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 3727437D15BDE32B00391C8E /* Credits.rtf */; };
 		3727438215BDE32B00391C8E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3727438115BDE32B00391C8E /* AppDelegate.m */; };
 		3727438515BDE32C00391C8E /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3727438315BDE32C00391C8E /* MainMenu.xib */; };
 		3727439315BDE38700391C8E /* AppController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3727439215BDE38700391C8E /* AppController.m */; };
@@ -26,7 +25,6 @@
 		3727437815BDE32B00391C8E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3727437A15BDE32B00391C8E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3727437C15BDE32B00391C8E /* MenuletExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MenuletExample-Prefix.pch"; sourceTree = "<group>"; };
-		3727437E15BDE32B00391C8E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
 		3727438015BDE32B00391C8E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3727438115BDE32B00391C8E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		3727438415BDE32C00391C8E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
@@ -102,7 +100,6 @@
 				3727437715BDE32B00391C8E /* InfoPlist.strings */,
 				3727437A15BDE32B00391C8E /* main.m */,
 				3727437C15BDE32B00391C8E /* MenuletExample-Prefix.pch */,
-				3727437D15BDE32B00391C8E /* Credits.rtf */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -199,7 +196,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				3727437915BDE32B00391C8E /* InfoPlist.strings in Resources */,
-				3727437F15BDE32B00391C8E /* Credits.rtf in Resources */,
 				3727438515BDE32C00391C8E /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -226,14 +222,6 @@
 				3727437815BDE32B00391C8E /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		3727437D15BDE32B00391C8E /* Credits.rtf */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3727437E15BDE32B00391C8E /* en */,
-			);
-			name = Credits.rtf;
 			sourceTree = "<group>";
 		};
 		3727438315BDE32C00391C8E /* MainMenu.xib */ = {
