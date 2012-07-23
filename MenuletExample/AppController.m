@@ -17,7 +17,7 @@
 {
     self.statusItem = [[NSStatusBar systemStatusBar] statusItemWithLength:NSVariableStatusItemLength];
     [self.statusItem setHighlightMode:YES];
-    [self.statusItem setTitle: @"Menulet Example"];
+    [self.statusItem setTitle: @"⬇"];
     [self.statusItem setEnabled:YES];
     [self.statusItem setToolTip:@"IPMenulet"];
     [self.statusItem setMenu:self.menu];

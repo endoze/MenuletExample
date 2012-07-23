@@ -1,16 +1,19 @@
-# files created by Xcode 3 or older
-*.pbxuser
+# Exclude the build directory
+build/*
+ 
+# Exclude temp nibs and swap files
+*~.nib
+*.swp
+ 
+# Exclude OS X folder attributes
+.DS_Store
+ 
+# Exclude user-specific XCode 3 and 4 files
 *.mode1
 *.mode1v3
 *.mode2v3
+*.perspective
 *.perspectivev3
-*.xcclassmodel/
-# files created by Xcode 4
-xcuserdata/
-# build products
-*.build/
-build/
-DerivedData/
-# Misc
-.svn
-.DS_Store
+*.pbxuser
+*.xcworkspace
+xcuserdata
