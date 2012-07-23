@@ -35,7 +35,7 @@
     [self.statusItem setHighlightMode:YES];
     [self.statusItem setTitle: @"⬇"];
     [self.statusItem setEnabled:YES];
-    [self.statusItem setToolTip:@"IPMenulet"];
+    [self.statusItem setToolTip:@"Menulet"];
     [self.statusItem setMenu:self.menu];
     
 }
