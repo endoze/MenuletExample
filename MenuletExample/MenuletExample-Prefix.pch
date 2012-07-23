@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'MenuletExample' target in the 'MenuletExample' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif
